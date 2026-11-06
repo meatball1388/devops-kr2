@@ -1,3 +1,4 @@
+# KR2: Frolov
 import os
 import socket
 
