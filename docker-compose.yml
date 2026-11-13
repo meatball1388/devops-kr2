@@ -7,7 +7,7 @@ services:
       - "127.0.0.1:8002:8002"
     environment:
       - REDIS_HOST=redis
-      - STUDENT=Frolov
+      - STUDENT=${STUDENT:-Alehin}
       - REDIS_PASSWORD=${REDIS_PASSWORD}
     depends_on:
       redis:

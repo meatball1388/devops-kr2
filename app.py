@@ -1,4 +1,4 @@
-# KR2: Frolov
+# KR2: Alehin
 import os
 import socket
 
